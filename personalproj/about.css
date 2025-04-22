@@ -1,0 +1,158 @@
+h1{
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+body{
+    background: url(486-map-kosovo-political.jpg);
+    transition: all 0.3s ease;
+}
+
+#section-1{
+    background-color: rgb(75, 75, 75);
+    height: 170px;
+    transition: all 0.3s ease;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    transition: all 0.3s ease;
+}
+
+header{
+    padding: 55px;
+    display: flex;
+    justify-content: space-around;
+    transition: all 0.3s ease;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 16px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+nav ul li.active{
+    background-color: blue;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+
+nav ul li{
+    transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+}
+
+nav ul li:hover{
+    background-color: blue;
+    border-radius: 100px;
+}
+
+nav ul li a{
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+    header{
+        padding: 30px;
+        border-radius: 15px;
+    }
+    nav ul li{
+        padding: 10px 15px;
+        border-radius: 15px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    header{
+        padding: 25px;
+        border-radius: 15px;
+    }
+    nav ul li{
+        padding: 8px 12px;
+        border-radius: 15px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    header{
+        padding: 20px;
+        border-radius: 15px;
+    }
+    nav ul li{
+        padding: 5px 10px;
+        border-radius: 15px;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    header{
+        padding: 15px;
+        border-radius: 15px;
+    }
+    nav ul li{
+        padding: 3px 6px;
+        border-radius: 15px;
+    }
+    nav ul li a{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    header{
+        padding: 10px;
+        border-radius: 15px;
+    }
+    nav ul li{
+        padding: 2px 5px;
+        border-radius: 15px;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    header{
+        padding: 5px;
+        border-radius: 15px;
+    }
+    nav ul li{
+        padding: 1px 3px;
+        border-radius: 15px;
+    }
+    nav ul li a{
+        font-size: 11px;
+    }
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
